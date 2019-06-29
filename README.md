@@ -4,6 +4,9 @@
 ![gitflow](./doc/gitflow.gif)
 
 
+[Dash Document Download Link](https://github.com/ycvbcvfu/team-gitflow-action/blob/master/doc/gitflow.docset.zip)
+
+[Online CheatSheet](https://gitflow.ryanbing.com/)
 
 
 ### git flow 安装指引
