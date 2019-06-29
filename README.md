@@ -1,7 +1,7 @@
 # team-gitflow-action
 
 
-![gitflow](./doc/gitflow.gif)
+![gitflow](./docs/gitflow.gif)
 
 
 [Dash Document Download Link](https://github.com/ycvbcvfu/team-gitflow-action/blob/master/doc/gitflow.docset.zip)
@@ -79,7 +79,7 @@ Hooks and filters directory? [/Users/xx/PycharmProjects/team-gitflow-action/.git
 
 `tips`: - d参数, 执行以下命令后，仓库中会自动生成开发流程所需的分支,执行`git branch -a`发现自动创建了`develop`分支,而且切换到了`develop`
 
-![Alt text](./doc/1561772956464.png)
+![Alt text](./docs/1561772956464.png)
 
 此刻，本地有 develop 和 master 分支，运程只有master 分支.
 
@@ -177,9 +177,9 @@ To github.com:ycvbcvfu/team-gitflow-action.git
 ```
 当你完成代码之后，会把你的这个分支`add-middleware-module` push 到 运程`origin`,同时在你的web 界面发起 `add-middleware-module 合并到develop分支的 Merge Requests请求`. 
 
-![Alt text](./doc/1561774554002.png)
+![Alt text](./docs/1561774554002.png)
 
-![Alt text](./doc/1561774644544.png)
+![Alt text](./docs/1561774644544.png)
 
 不管是github 还是gitlab 默认合并分支的都是`master`. 需要管理着自己更改为`develop`作为默认的分支
 
@@ -200,9 +200,9 @@ github: 可以在 `Settings` -> `Branches` -> `Default branch` 来设置`Default
 
 接下来项目管理就可以发现有新的合并请求
 
-![Alt text](./doc/1561774998887.png)
+![Alt text](./docs/1561774998887.png)
 
-![Alt text](./doc/1561775095405.png)
+![Alt text](./docs/1561775095405.png)
 
 项目者在看到合并请求之后要对代码进行review，然后才进行合并,有下面情况应该选择不合并
 
@@ -265,7 +265,7 @@ To github.com:ycvbcvfu/team-gitflow-action.git
 ➜  team-gitflow-action git:(develop) ls
 README.md                      add-middleware-module.md       add-other-middleware-module.md
 ```
-![Alt text](./doc/1561777508188.png)
+![Alt text](./docs/1561777508188.png)
 
 其他人在`git pull` 的时候就会得到同步develop 分支已经合并的代码，如下：
 
@@ -469,7 +469,7 @@ To github.com:ycvbcvfu/team-gitflow-action.git
  * [new tag]         RELEASE-1.0.0 -> RELEASE-1.0.0
 ```
 
-![Alt text](./doc/1561778557114.png)
+![Alt text](./docs/1561778557114.png)
 
 你会发现只是多了`RELEASE-1.0.0` tag, 同时`RELEASE-1.0.0` , `develop`, `master`这者的代码都是一样的。
 
@@ -585,5 +585,5 @@ Total 1 (delta 0), reused 0 (delta 0)
 To github.com:ycvbcvfu/team-gitflow-action.git
  * [new tag]         RELEASE-1.0.1 -> RELEASE-1.0.1
 ```
-![Alt text](./doc/1561779804308.png)
+![Alt text](./docs/1561779804308.png)
 
