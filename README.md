@@ -4,7 +4,7 @@
 ![gitflow](./docs/gitflow.gif)
 
 
-[Dash Document Download Link](https://github.com/ycvbcvfu/team-gitflow-action/blob/master/doc/gitflow.docset.zip)
+[Dash Docset Download Link](https://github.com/ycvbcvfu/team-gitflow-action/blob/master/docs/gitflow.docset.zip)
 
 [Online CheatSheet](https://gitflow.ryanbing.com/)
 
