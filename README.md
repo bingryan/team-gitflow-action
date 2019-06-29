@@ -9,6 +9,9 @@
 [Online CheatSheet](https://gitflow.ryanbing.com/)
 
 
+![gitflow](./docs/12561772956464123.png)
+
+
 ### git flow 安装指引
 
 `macOS Homebrew`
